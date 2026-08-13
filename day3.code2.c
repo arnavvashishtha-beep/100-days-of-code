@@ -9,7 +9,10 @@ printf("enter a number=");
 scanf("%d",&b);
 printf("b=%d\n",b);
 //swapping numbers a and b
-printf("a=%d\n",b);
-printf("b=%d",a);
+c=a;
+a=b;
+b=c;
+printf("a=%d\n",a);
+printf("b=%d",b);
 return 0 ;
 }
